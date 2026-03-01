@@ -223,7 +223,7 @@ jobs:
           cache-dependency-path: '**/go.sum'
 
       - name: Fetch Windows dependency
-        uses: crazy-max/ghaction-chocolatey@6828f16489ec8d2968b55066766cb41f0d278f2a # v3.3.0
+        uses: crazy-max/ghaction-chocolatey@dff3862348493b11fba2fbc49147b6d2dfe09b66 # v4.0.0
         with:
           args: install graphviz llvm
 
